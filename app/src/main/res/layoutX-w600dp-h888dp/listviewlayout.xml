@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+        android:id="@+id/LinearLayoutButton"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:orientation="horizontal" 
+       
+        >  
+        <TableRow>
+
+            <TextView
+                android:id="@+id/roadno"
+                android:layout_width="35dip"
+                android:layout_height="110dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#CD3700"
+                android:textSize="28sp" />
+      
+        <View  
+            android:layout_width="1px"  
+            android:layout_height="fill_parent"  
+            android:background="#B8B8B8"  
+            android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/roadnm"
+                android:layout_width="210dip"
+                android:layout_height="110dp"
+                android:layout_weight="4"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:textSize="28sp" />
+      
+       <View  
+            android:layout_width="1px"  
+            android:layout_height="fill_parent"  
+            android:background="#B8B8B8"  
+            android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/dco"
+                android:layout_width="40dip"
+                android:layout_height="110dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="28sp" />
+      
+        <View  
+            android:layout_width="1px"  
+            android:layout_height="fill_parent"  
+            android:background="#B8B8B8"  
+            android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/rco"
+                android:layout_width="40dip"
+                android:layout_height="110dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="28sp" />
+
+
+        </TableRow>
+      
+    </TableLayout>  

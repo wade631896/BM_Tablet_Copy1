@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">一般用戶抄表系統</string>
+    <string name="DataBaseName_Sort">/copy.db3</string>
+    <string name="TableName1">Road</string>
+    <string name="TableName2">Result</string>
+    <string name="OrderKeyRoadNo">RoadNo</string>
+    <string name="OrderKeyCustLoc">CustLoc</string>
+    <string name="OrderKeySeq">SEQ</string>
+    <string name="OrderKeyWatnum">WATNUM</string>
+    <string name="ResultFieldCopyedMk">CopyMk</string>
+    <string name="RoadFieldRco">RCO</string>
+    <string name="RoadFieldDco">DCO</string>
+    <string name="ResultFieldRoadno">RoadNo</string>
+    <string name="ResultFieldRoadnm">RoadNm</string>
+    <string name="str_dialog_title">請稍候</string>
+    <string name="str_dialog_body">執行中...</string>
+    <string name="CopyedMk">Y</string>
+    <string name="NonCopyedMk">N</string>
+    <string name="app_name_1">道路分佈</string>
+    <string name="app_name_2">用戶分佈</string>
+    <string name="app_name_3">用戶資料</string>
+    <string name="app_name_4">表／番號查詢</string>
+    <string name="app_name_5">備註</string>
+    <string name="app_name_6">檔案備份</string>
+    <string name="app_name_7">拍照</string>
+    <string name="AllData">全部</string>
+    <string name="AllDataCount">總計</string>
+    <string name="CopyedData">已抄</string>
+    <string name="NonCopyedData">未抄</string>
+    <string name="DataTitle1">抄表區：</string>
+    <string name="DataTotal">抄表區總數：</string>
+    <string name="DataTota2">抄表戶總數：</string>
+    <string name="DataTitle2">道路預選：</string>
+    <string name="Search3">燈表查詢</string>
+    <string name="TelNo">電話：</string>
+    <string name="Unit">戶</string>
+    <string name="LampPostion">表位置：</string>
+    <string name="LampType">燈表別：</string>
+    <string name="LampNo">表／番號：</string>
+    <string name="LampMpre">供氣壓力：</string>
+    <string name="LampPrescoef">壓力係數：</string>
+    <string name="LampCV">已校正累計度數度數(CV)</string>
+    <string name="LampPANTNUM">指針度數</string>
+    <string name="LampUV">未校正累計度數度數(UV)</string>
+    <string name="PreviousCopyed">上期表度數</string>
+    <string name="PreviousCopyed2">上上期表度數</string>
+    <string name="NewCopyed">本期表度數</string>
+    <string name="InputInformation">請輸入相關表／番號：</string>
+    <string name="ShowInformation1">（０～９／Ａ）</string>
+    <string name="ShowInformation2">（０～９／Ｈ／Ｓ）</string>
+    <string name="InformationTitle">相關資料</string>
+    <string name="DialogTitle">檢核</string>
+    <string name="TcTitle">提醒</string>
+    <string name="DialogMessage1">相關資料不齊全！</string>
+    <string name="DialogMessage2">確定要結束程式嗎？</string>
+    <string name="DialogMessage3">本次度數低於前期度數\n您確定表見度確實如此顯示？</string>
+    <string name="DialogMessage4">前期度數為:推定/新掛/新換\n您確定本次度數是正確的嗎？</string>
+    <string name="DialogMessage5">請先點選欲查詢之區域!</string>
+    <string name="DialogMessage6">此區域無資料!!</string>
+    <string name="DialogMessage7">查無此筆資料!! 請確認表號或選定區域</string>
+    <string name="DialogMessage8">請輸入完整表號!!</string>
+    <string name="DialogMessage9">系統日期不正確，請更正系統日期，或資料太舊，請重新匯入!!</string>
+    <string name="DialogMessage10">匯入不完全，請重新匯入!!</string>
+    <string name="DialogMessage11">備份完成!!</string>
+    <string name="DialogMessage12">要備份抄表資料到平板嗎? (按是：至備份視窗，按否：離開程式。)</string>
+    <string name="DialogMessage13">機械錶度數低於上一期度數，請確認!!</string>
+    <string name="DialogMessage14">UV度數低於上一期度數，請確認!!</string>
+    <string name="DialogMessage15">沒有抄表度數，要記錄為未抄表用戶嗎?</string>
+    <string name="DialogMessage16">抄表度數為0，此為正常度數嗎?如為異常請選擇異常選項</string>
+    <string name="DialogButton1">確定</string>
+    <string name="DialogButton2">取消</string>
+    <string name="DialogButton3">是</string>
+    <string name="DialogButton4">否</string>
+    <string name="Button">確定</string>
+    <string name="NormalCust1">C</string>
+    <string name="NormalCust2">D</string>
+    <string name="BusinessCust">Z</string>
+    <string name="NoGridData">查無任何相符資料！</string>
+    <string name="notesave">已儲存備註資料!!</string>
+    <string-array name="spinner_item">
+        <item></item>
+        <item>被擋住</item>
+        <item>表箱打不開</item>
+        <item>社區大門未開</item>
+        <item>其他</item>
+    </string-array>
+</resources>

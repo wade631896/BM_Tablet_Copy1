@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2px"
+            android:baselineAligned="false"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <ImageButton
+                android:id="@+id/EndButton"
+                android:layout_width="100px"
+                android:layout_height="140px"
+                android:layout_marginRight="2px"
+                android:layout_weight="3"
+                android:background="@drawable/end_btn"
+                android:focusable="false" />
+
+            <TextView
+                android:id="@+id/test"
+                android:layout_width="10px"
+                android:layout_height="10px"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/CHVTextView"
+                android:layout_width="115px"
+                android:layout_height="135px"
+                android:layout_weight="3"
+                android:textColor="@color/red"
+                android:textSize="40px" />
+
+            <ImageButton
+                android:id="@+id/NextPageButton"
+                android:layout_width="100px"
+                android:layout_height="140px"
+                android:layout_weight="3"
+                android:background="@drawable/next_btn"
+                android:focusable="false" />
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#808080"
+        android:gravity="center_vertical">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="40px"
+            android:baselineAligned="false">
+
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@color/dark"
+        android:focusable="false" />
+
+    <TextView
+        android:id="@+id/TitleTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_margin="2px"
+        android:focusable="false"
+        android:gravity="center_vertical"
+        android:text="@string/InformationTitle"
+        android:textColor="@color/red"
+        android:textSize="35px" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="@color/dark"
+        android:focusable="false" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4px"
+            android:layout_marginTop="4px"
+            android:layout_weight="2"
+            android:text="表號查詢"
+            android:textColor="#000000"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/WatnumEditText"
+            android:layout_width="50dip"
+            android:layout_height="50dp"
+            android:layout_marginTop="4px"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:inputType="textVisiblePassword"
+            android:maxLength="12"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/blue"
+            android:textSize="25dp" />
+
+        <ImageButton
+            android:id="@+id/WatnumButton"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="4px"
+            android:layout_marginRight="4px"
+            android:layout_weight="1"
+            android:background="@drawable/finddata_btn"
+            android:focusable="false" />
+
+    </TableRow>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="#dcdcdc"
+        android:gravity="center_vertical">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:baselineAligned="false">
+
+            <RadioButton
+                android:id="@+id/AllDataRadioButton"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_margin="4px"
+                android:layout_weight="3"
+                android:button="@drawable/radiobutton"
+                android:focusable="false"
+                android:gravity="center"
+                android:text="@string/AllData"
+                android:textColor="@color/blue"
+                android:textSize="35px" />
+
+            <RadioButton
+                android:id="@+id/CopyedRadioButton"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_margin="4px"
+                android:layout_weight="3"
+                android:button="@drawable/radiobutton"
+                android:focusable="false"
+                android:gravity="center"
+                android:text="@string/CopyedData"
+                android:textColor="@color/dark"
+                android:textSize="35px" />
+
+            <RadioButton
+                android:id="@+id/NonCopyedRadioButton"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_margin="4px"
+                android:layout_weight="3"
+                android:button="@drawable/radiobutton"
+                android:checked="true"
+                android:focusable="false"
+                android:gravity="center"
+                android:text="@string/NonCopyedData"
+                android:textColor="@color/red"
+                android:textSize="35px" />
+
+            <ImageButton
+                android:id="@+id/voice"
+                android:layout_width="36px"
+                android:layout_height="33dp"
+                android:layout_marginTop="6.5px"
+                android:layout_weight="1"
+                android:focusable="false" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="@color/dark"
+        android:focusable="false" />
+
+    <TableLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="50dip"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:gravity="center"
+                android:text="區域"
+                android:textColor="#B8B8B8"
+                android:textSize="20sp" />
+
+            <TextView
+
+                android:layout_width="200dip"
+                android:layout_height="30dp"
+                android:layout_weight="4"
+                android:background="#000000"
+                android:gravity="center"
+                android:text="名稱"
+                android:textColor="#B8B8B8"
+                android:textSize="20sp" />
+
+            <TextView
+
+                android:layout_width="50dip"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:gravity="center"
+                android:text="已抄"
+                android:textColor="#B8B8B8"
+                android:textSize="20sp" />
+
+            <TextView
+
+                android:layout_width="50dip"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:gravity="center"
+                android:text="戶數"
+                android:textColor="#B8B8B8"
+                android:textSize="20sp" />
+
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFF"
+
+        >
+
+        <ListView
+            android:id="@+id/DataListView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="2px"
+            android:cacheColorHint="#00000000"
+            android:choiceMode="singleChoice"
+            android:fadingEdge="none"
+            android:fastScrollEnabled="true"
+            android:focusable="false"
+            android:headerDividersEnabled="false"
+            android:listSelector="#00000000"
+            android:scrollbars="vertical" />
+    </LinearLayout>
+</LinearLayout>

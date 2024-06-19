@@ -1,0 +1,64 @@
+-injars 'C:\Users\521\Desktop\BM_Tablet_Copy1\app\libs\commons-logging-1.2.jar'(**.class)
+-injars 'C:\Users\521\Desktop\BM_Tablet_Copy1\app\libs\fluent-hc-4.5.14.jar'(**.class)
+-injars 'C:\Users\521\Desktop\BM_Tablet_Copy1\app\libs\httpclient-4.5.14.jar'(**.class)
+-injars 'C:\Users\521\Desktop\BM_Tablet_Copy1\app\libs\httpclient-cache-4.5.14.jar'(**.class)
+-injars 'C:\Users\521\Desktop\BM_Tablet_Copy1\app\libs\httpcore-4.4.16.jar'(**.class)
+-injars 'C:\Users\521\Desktop\BM_Tablet_Copy1\app\libs\httpmime-4.5.14.jar'(**.class)
+-injars 'C:\Users\521\Desktop\BM_Tablet_Copy1\app\libs\ksoap2-android-assembly-3.6.4-jar-with-dependencies.jar'(**.class)
+-injars 'C:\Users\521\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\58dfdb57b778e296155a64e6df2dff27\jars\classes.jar'(**.class)
+-injars 'C:\Users\521\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\9723a38d1c47c5cce2621b9983d19cf8\jars\classes.jar'(**.class)
+-injars 'C:\Users\521\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\09f60d36326c8d6c60365a4546c8fb09\jars\classes.jar'(**.class)
+-injars 'C:\Users\521\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\5c61d1c0fbdbf6abe6ef676ab715f69c\jars\classes.jar'(**.class)
+-injars 'C:\Users\521\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\d2ff85c623150607bc0b3239f0ad6464\jars\classes.jar'(**.class)
+-injars 'C:\Users\521\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.5\2852e6e05fbb95076fc091f6d1780f1f8fe35e0f\commons-io-2.5.jar'(**.class)
+-injars 'C:\Users\521\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\0c5b6f3f93d01c99965ea9c84c28c56e\jars\classes.jar'(**.class)
+-injars 'C:\Users\521\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\4dea6b458777e375625336b7d9e99dd5\jars\classes.jar'(**.class)
+-injars 'C:\Users\521\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\cc62174167966f556d872c41c5d80830\jars\classes.jar'(**.class)
+-injars 'C:\Users\521\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\505e47c7341f0c92c6db5b88444764ab\jars\classes.jar'(**.class)
+-injars 'C:\Users\521\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\bf656305f565ca05eb5471519952b4dd\jars\classes.jar'(**.class)
+-injars 'C:\Users\521\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\c9bab2bec0276574314104435cb65974\jars\classes.jar'(**.class)
+-injars 'C:\Users\521\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\1d6008ba989977799759a197e8359d30\jars\classes.jar'(**.class)
+-injars 'C:\Users\521\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\4cfea616c7c1fbd9aed510b05781aed9\jars\classes.jar'(**.class)
+-injars 'C:\Users\521\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar'(**.class)
+-injars 'C:\Users\521\Desktop\BM_Tablet_Copy1\app\build\intermediates\classes\debug'(**.class)
+-outjars 'C:\Users\521\Desktop\BM_Tablet_Copy1\app\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'C:\Users\521\AppData\Local\Android\Sdk\build-tools\27.0.3\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration 'C:\Users\521\Desktop\BM_Tablet_Copy1\app\build\intermediates\multi-dex\debug\components.flags'
+
+
+# Referenced at C:\Users\521\Desktop\BM_Tablet_Copy1\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:43
+-keep class android.support.multidex.MultiDexApplication {
+    <init>(...);
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.ir.** {
+    <fields>;
+    <methods>;
+}

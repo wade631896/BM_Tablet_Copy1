@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+            <TextView
+                android:id="@+id/ListTextView1"
+     			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:textColor="@color/dark"
+    			android:text="@string/LampPostion"
+    			android:gravity="center_vertical|left"
+    			android:textSize="20px"
+     			android:focusable="false"
+	   			android:layout_weight="1" 
+	   			android:layout_margin="2px"/>
+           
+    		<TextView
+    			android:id="@+id/ListTextView2"
+      			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:textSize="20px"
+    			android:text=""
+    			android:gravity="center"
+      			android:textColor="@color/blue"    			
+    		
+    			android:layout_toRightOf="@+id/ListTextView1"/><!-- 設定在ListTextView的右邊 -->
+    			
+
+</RelativeLayout>
